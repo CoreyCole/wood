@@ -1,0 +1,10 @@
+
+[package]
+name = "executor"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+fyrox = "0.28"
+wood = { path = "../game" }
+crossbeam = "0.8.0"
